@@ -1,10 +1,10 @@
 #ifndef SIM_H
 #define SIM_H
 #include<stdint.h>
-
+#define NUM_REGS 8
 
 struct Regs{
-  int reg[255];
+  int reg[NUM_REGS];
 };
 
 struct State {
